@@ -31,5 +31,5 @@ You can try out the project live here: [Fiverr Zoom - Live Demo](https://fiverrz
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/zoom-youtube-integration.git
+   git clone https://github.com/devmilon923/zoom-fun-project.git
    ```
