@@ -1,16 +1,28 @@
-# Zoom Meeting YouTube Player
+# Zoom Meeting Playback with Hidden YouTube Video Integration
 
-This app is a **fun project** designed to simulate a Zoom meeting environment with the added ability to play YouTube videos while displaying real-time transcript-like chat messages. It combines a YouTube player embedded in the interface with a scrolling chat sidebar, mimicking a virtual meeting with dynamic user interactions.
+## Project Overview
+This is a fun and practical project designed to help users enjoy a quick break during office hours while staying under the radar of supervisors or CCTV cameras. The website integrates a Zoom meeting playback interface with hidden YouTube video playback functionality. Users can input any YouTube video into an Audio Transcript box, hit enter, and the Zoom video interface will display and play that video. The interface also includes a simulated sidebar with voice transcripts, creating a realistic Zoom meeting experience.
 
-## Key Features:
+## Live Demo
+You can try out the project live here: [Fiverr Zoom - Live Demo](https://fiverrzoom.netlify.app/)
 
-1. **YouTube Video Player:** Users can input a YouTube URL in the search box and hit "Enter" to load and play the video directly in the interface.
-2. **Dynamic Chat Transcript:** The sidebar displays a scrolling transcript with various chat messages, simulating a real-time chat during a Zoom meeting.
-3. **Responsive Design:** The app uses a clean, responsive layout powered by TailwindCSS, ensuring that it looks great on any device.
-4. **Scrollability:** The chat transcript is scrollable, ensuring smooth viewing even when there’s a lot of conversation.
+## Features
+- **Zoom Meeting Playback Interface**: Simulates a Zoom meeting interface.
+- **Hidden YouTube Video Integration**: Users can input any YouTube video URL, and it will play in the Zoom interface.
+- **Audio Transcript Box**: Input a YouTube video URL and hit enter to start playback.
+- **Simulated Sidebar**: A sidebar displaying voice transcripts to make it look like a real Zoom meeting.
 
-## Purpose:
+## How It Works
+1. **User Input**: Users enter a YouTube video URL into the "Audio Transcript" input box.
+2. **Video Playback**: Upon pressing enter, the video starts playing in the Zoom-style interface.
+3. **Voice Transcript Simulation**: The sidebar simulates voice transcripts, mimicking the transcript feature of real Zoom meetings.
+4. **Realistic Interface**: The layout closely resembles a typical Zoom meeting, complete with a video screen and simulated participant information.
 
-This app serves as a **fun, interactive** way to simulate an online meeting experience with YouTube video integration and a transcript-style chat. It’s perfect for exploring how web technologies like HTML, CSS, JavaScript, and YouTube’s embedding functionality can be combined into a simple, engaging application.
+## Technologies Used
+- **Frontend**: HTML, CSS, Tailwind CSS (for styling)
+- **YouTube API**: Embedded YouTube videos for video playback
 
-In short, this is a **playful project** that combines multimedia and user interaction, offering a fun and interactive way to experience virtual meetings!
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/zoom-youtube-integration.git
